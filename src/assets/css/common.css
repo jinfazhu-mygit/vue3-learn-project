@@ -1,7 +1,18 @@
 :root {
   --primary-color: #ff9854;
+  --van-search-left-icon-color: var(--primary-color) !important;
+  --van-tabs-bottom-bar-color: var(--primary-color) !important;
+  --van-nav-bar-icon-color: var(--primary-color) !important;
 }
 
 body {
   font-style: 14px;
+}
+
+.hide_tabbar {
+  height: 100vh;
+  position: relative;
+  z-index: 8;
+  background-color: #fff;
+  overflow-y: auto;
 }
